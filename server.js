@@ -11,7 +11,7 @@ let transporter = nodemailer.createTransport({
     auth: {
         user: 'EMAIL',
         pass: 'PASS'
-    }
+    } 
 });
 
 // setup email data with unicode symbols
